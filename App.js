@@ -60,26 +60,31 @@ function Profile({ navigation }) {
         </Text>
       </View>
 
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Image
-          style={{
-            resizeMode: "cover",
-            height: 100,
-            width: 200
-          }}
-          source={"https://upload.wikimedia.org/wikipedia/en/2/27/Total_War_Warhammer_3_cover_art.jpg"}
-        />
-        <Text>Totalwar Warhammer 3!</Text>
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', flexDirection: "row" }}>
+        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+          <Image
+            style={{
+              resizeMode: "cover",
+              height: 100,
+              width: 200
+            }}
+            source={"https://upload.wikimedia.org/wikipedia/en/2/27/Total_War_Warhammer_3_cover_art.jpg"}
+          />
+          <Text>Totalwar Warhammer 3!</Text>
+          </View>
         <Separator />
-        <Image
-          style={{
-            resizeMode: "cover",
-            height: 100,
-            width: 200
-          }}
-          source={"https://www.nme.com/wp-content/uploads/2021/09/Total-Warhammer-3-Grand-Cathay-Dragon.jpg"}
-        />
+        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+          <Image
+            style={{
+              resizeMode: "cover",
+              height: 100,
+              width: 200
+            }}
+            source={"https://www.nme.com/wp-content/uploads/2021/09/Total-Warhammer-3-Grand-Cathay-Dragon.jpg"}
+          />
         <Text>Grand Cathay</Text>
+        </View>
+        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
 
         <Image
           style={{
@@ -90,6 +95,7 @@ function Profile({ navigation }) {
           source={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM9n6tQzcRE8CXMXP5GXIIgYIF3wXVMZy4JA&usqp=CAU"}
         />
         <Text>Kislev</Text>
+        </View>
 
       </View>
 
